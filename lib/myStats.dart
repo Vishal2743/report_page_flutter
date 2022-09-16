@@ -179,8 +179,8 @@ class _MyStastsState extends State<MyStasts> {
                 height: 24,
               ),
               Container(
-                height: 88,
-                width: 312,
+                height: MediaQuery.of(context).size.height * 0.115,
+                width: MediaQuery.of(context).size.width * 0.8,
                 decoration: const BoxDecoration(
                   color: Color.fromRGBO(254, 239, 239, 1),
                   borderRadius: BorderRadius.only(
@@ -300,8 +300,8 @@ class _MyStastsState extends State<MyStasts> {
                   clipper: OvalBottomBorderClipper(),
                   child: Container(
                     color: const Color.fromRGBO(253, 211, 211, 1),
-                    height: 95,
-                    width: 312,
+                    height: MediaQuery.of(context).size.height * 0.115,
+                    width: MediaQuery.of(context).size.width * 0.8,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -450,7 +450,7 @@ class _MyStastsState extends State<MyStasts> {
                 ],
               ),
             ),
-            height: 100,
+            height: MediaQuery.of(context).size.height * 0.12,
           ),
         )
       ],
